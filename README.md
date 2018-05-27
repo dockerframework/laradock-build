@@ -1,0 +1,4 @@
+# Laradock Build
+Docker builder & running script for Laradock.
+
+[![Build Status](https://travis-ci.org/dockerframework/laradock-build.svg?branch=master)](https://travis-ci.org/dockerframework/laradock-build) [![GitHub issues](https://img.shields.io/github/issues/dockerframework/laradock-build.svg)](https://github.com/dockerframework/laradock-build/issues) [![GitHub forks](https://img.shields.io/github/forks/dockerframework/laradock-build.svg)](https://github.com/dockerframework/laradock-build/network) [![GitHub stars](https://img.shields.io/github/stars/dockerframework/laradock-build.svg)](https://github.com/dockerframework/laradock-build/stargazers) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/dockerframework/laradock-build/master/LICENSE)
