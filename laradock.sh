@@ -161,24 +161,24 @@ docker_build() {
 
     ## MULTI CONTAINER
     ## ------------------------------
-    ## for CONTAINER in $BUILD_ENV
-    ## do
-    ##   get_time
-    ##   echo "--------------------------------------------------------------------------"
-    ##   echo "\033[22;32m[ $DATE ]       docker-compose build $CONTAINER \033[0m        "
-    ##   echo "--------------------------------------------------------------------------"
-    ##   docker-compose build $CONTAINER
-    ##   echo ""
-    ## done
+    for CONTAINER in $BUILD_ENV
+    do
+      get_time
+      echo "--------------------------------------------------------------------------"
+      echo "\033[22;32m[ $DATE ]       docker-compose build $CONTAINER \033[0m        "
+      echo "--------------------------------------------------------------------------"
+      docker-compose build $CONTAINER
+      echo ""
+    done
 
     ## SINGLE CONTAINER (test)
     ## ------------------------------
-    get_time
-    echo "--------------------------------------------------------------------------"
-    echo "\033[22;32m[ $DATE ]       docker-compose build $BUILD_ENV \033[0m        "
-    echo "--------------------------------------------------------------------------"
-    docker-compose build $BUILD_ENV
-    echo ""
+    ## get_time
+    ## echo "--------------------------------------------------------------------------"
+    ## echo "\033[22;32m[ $DATE ]       docker-compose build $BUILD_ENV \033[0m        "
+    ## echo "--------------------------------------------------------------------------"
+    ## docker-compose build $BUILD_ENV
+    ## echo ""
   fi
 }
 
