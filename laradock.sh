@@ -75,10 +75,11 @@ PATH_HOME=`echo $HOME`
 ## +----------+-----------+----------------------------------+
 ##  Required (must included)
 ##  - Container "consul"
+##  - Container "grafana"
 ##  - Container "portainer"
 
-CONTAINER_PRODUCTION="consul workspace nginx adminer aerospike elasticsearch mariadb memcached mongodb mysql percona pgadmin phpfpm phpmyadmin portainer postgresql redis solr spark terraform"
-CONTAINER_DEVELOPMENT="consul portainer"
+CONTAINER_PRODUCTION="consul workspace grafana nginx adminer aerospike elasticsearch mariadb memcached mongodb mysql percona pgadmin phpfpm phpmyadmin portainer postgresql redis solr spark terraform"
+CONTAINER_DEVELOPMENT="consul grafana portainer"
 
 export DOCKER_CLIENT_TIMEOUT=300
 export COMPOSE_HTTP_TIMEOUT=300
