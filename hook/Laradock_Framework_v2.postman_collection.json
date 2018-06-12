@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "d44a0c9a-1a55-4ccf-ada8-f5b52e839b51",
+		"name": "Laradock Framework",
+		"description": "Laradock Framework Hook Images (Images Volume Badges)\n(c) 2018 GNU Public License (GPL), Laradock Team\n\n# ================================================================================================\n#  Inspiration: Docker Framework (https://github.com/zeroc0d3/docker-framework)\n#               Dwi Fahni Denni <zeroc0d3.0912@gmail.com>\n# ================================================================================================\n#  Core Contributors:\n#   - Mahmoud Zalt @mahmoudz\n#   - Bo-Yi Wu @appleboy\n#   - Philippe Trépanier @philtrep\n#   - Mike Erickson @mikeerickson\n#   - Dwi Fahni Denni @zeroc0d3\n#   - Thor Erik @thorerik\n#   - Winfried van Loon @winfried-van-loon\n#   - TJ Miller @sixlive\n#   - Yu-Lung Shao (Allen) @bestlong\n#   - Milan Urukalo @urukalo\n#   - Vince Chu @vwchu\n#   - Huadong Zuo @zuohuadong\n# ================================================================================================",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Core-Base",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/core-base/v69jnH6helMV3OWdqTbCyfSIwvQ="
+			},
+			"response": []
+		},
+		{
+			"name": "Core-Base-Consul",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/core-base-consul/OOqto883G1LGPbNdO2aVxxY_CDQ="
+			},
+			"response": []
+		},
+		{
+			"name": "Core-Consul",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/core-consul/XAr3jYQA1o2enH2YImJ-TGO92zc="
+			},
+			"response": []
+		},
+		{
+			"name": "Adminer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/adminer/fYjBODlcI7KaoClTvmsk8RgDu4E="
+			},
+			"response": []
+		},
+		{
+			"name": "Aerospike",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/aerospike/yE7VMrJqZMSe9h9wYwMXc3NWrYA="
+			},
+			"response": []
+		},
+		{
+			"name": "Apache2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/apache2/aM3fh-5B0OEWoDq512iqphzh5rY="
+			},
+			"response": []
+		},
+		{
+			"name": "Elasticsearch",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/elasticsearch/QWAhu6O33ygBd1NHULa9idZNe20="
+			},
+			"response": []
+		},
+		{
+			"name": "Grafana",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/grafana/-GZ4CbiHRh3Fe9JwEtyzZHhTBmE="
+			},
+			"response": []
+		},
+		{
+			"name": "MariaDB",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/mariadb/blSxaG63veJlw56V8kvuk-Ymf8Q="
+			},
+			"response": []
+		},
+		{
+			"name": "Memcached",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/memcached/r6dzugFkAL9u1ioz4PdzcuTy-v4="
+			},
+			"response": []
+		},
+		{
+			"name": "MongoDB",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/mongodb/rJmapZtNqtmpZ4288wxCWrRPC90="
+			},
+			"response": []
+		},
+		{
+			"name": "MySQL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/mysql/UAMDxU6dsGbXMDGQA9DyEKIEuIM="
+			},
+			"response": []
+		},
+		{
+			"name": "NginX",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/nginx/238sS_OXDCB2t7hZ9_Qpt4Swlgk="
+			},
+			"response": []
+		},
+		{
+			"name": "NodeJS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/nodejs/mxpuf96l83r9joC_yCZMJC7wBvM="
+			},
+			"response": []
+		},
+		{
+			"name": "Percona",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/percona/fBTx8O_HS5nFk10daqjJ_qF1Yag="
+			},
+			"response": []
+		},
+		{
+			"name": "Prometheus",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/prometheus/XparpSBmWCjrUSdPTgaXi3f-1pM="
+			},
+			"response": []
+		},
+		{
+			"name": "PgAdmin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/pgadmin/2k2YCkeIgDQlfzwFXkNoaRsEtKk="
+			},
+			"response": []
+		},
+		{
+			"name": "PhpFpm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/phpfpm/Pnnp1RTFN3QPTWRmZ-qwUt_PJVI="
+			},
+			"response": []
+		},
+		{
+			"name": "PhpMyAdmin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/phpmyadmin/ftD2wmNrw4oRQg90hRME91MrgXI="
+			},
+			"response": []
+		},
+		{
+			"name": "PostgreSQL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/postgresql/7dPxFT0tlgAkvUMuSJcIQ60aIp0="
+			},
+			"response": []
+		},
+		{
+			"name": "Portainer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/portainer/f3y072PJxVsD_kYoH23apEsGyp4="
+			},
+			"response": []
+		},
+		{
+			"name": "Redis",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/redis/rWZJAvPRuFVoCnSZbDgA4ZeWtdM="
+			},
+			"response": []
+		},
+		{
+			"name": "Solr",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/solr/24hPvwTBE7YIu5FH9lzm4Au9KEA="
+			},
+			"response": []
+		},
+		{
+			"name": "Spark",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/spark/Miu40mzB6YRDWjfDHMCaAM9aDx8="
+			},
+			"response": []
+		},
+		{
+			"name": "Terraform",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/terraform/Nk-HILRPKRYcHgj4v0nLpSRomD0="
+			},
+			"response": []
+		},
+		{
+			"name": "Workspace PHPFpm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "https://hooks.microbadger.com/images/dockerframework/workspace-phpfpm/xUOMPyyOJYmilHqSgQ07ADeHKfM="
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "731f94e9-b96f-4de5-9e78-0da17a77efa2",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "3bf93099-dec0-49e5-ac94-6d8636d85779",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
