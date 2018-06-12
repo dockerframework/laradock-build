@@ -117,10 +117,10 @@ PATH_HOME=`echo $HOME`
 ## +----------+------------+----------------------------------+
 ## |   8157   |     4444   |  selenium                        |
 ## +----------+------------+----------------------------------+
-## |   8158   |     8983   |  solr                            |
+## |   8158   |     9983   |  solr                            |
 ## +----------+------------+----------------------------------+
 ## |   8159   |     8080   |  swagger-ui                      |
-## |   8160   |     8082   |  swagger-data                    |
+## |   8160   |     8092   |  swagger-data                    |
 ## +----------+------------+----------------------------------+
 ## |   8161   |     8080   |  spark (master)                  |
 ## |   8162   |     8881   |  spark (worker)                  |
@@ -131,12 +131,22 @@ PATH_HOME=`echo $HOME`
 ## +----------+------------+----------------------------------+
 ## |   8165   |       22   |  vim                             |
 ## +----------+------------+----------------------------------+
-## |   8200   |     9000   |  laradock-phpfpm                 |
-## |   8201   |       22   |  laradock-php-worker             |
-## |   8202   |       22   |  laradock-workspace              |
+## |   8200   |     9000   |  domikado-phpfpm                 |
+## |   8201   |       22   |  domikado-php-worker             |
+## |   8202   |       22   |  domikado-workspace              |
 ## +----------+------------+----------------------------------+
-## |   8901   |       80   |  workspace (phpfpm)              |
-## |   8902   |     9090   |  workspace (xdebug)              |
+## |   8300   |     9093   |  alertmanager                    |
+## |   8301   |     3000   |  caddy grafana                   |
+## |   8302   |     9090   |  caddy prometheus                |
+## |   8303   |     9091   |  caddy pushgateway               |
+## |   8304   |     9093   |  caddy alertmanager              |
+## |   8305   |     3000   |  cadvisor                        |
+## |   8306   |     9100   |  nodeexporter                    |
+## |   8307   |     9090   |  prometheus                      |
+## |   8308   |     9091   |  pushgateway                     |
+## +----------+------------+----------------------------------+
+## |   9901   |       80   |  workspace (phpfpm)              |
+## |   9902   |     9090   |  workspace (xdebug)              |
 ## +----------+------------+----------------------------------+
 ##  *) Customize port for Docker Framework
 ##  Required (must included)
@@ -145,7 +155,7 @@ PATH_HOME=`echo $HOME`
 ##  - Container "portainer"
 
 CONTAINER_PRODUCTION="consul workspace grafana nginx adminer aerospike elasticsearch mariadb memcached mongodb mysql percona pgadmin phpfpm phpmyadmin portainer postgresql redis solr spark terraform"
-CONTAINER_DEVELOPMENT="consul grafana portainer"
+CONTAINER_DEVELOPMENT="consul alertmanager caddy cadvisor grafana nodeexporter portainer prometheus pushgateway"
 
 export DOCKER_CLIENT_TIMEOUT=300
 export COMPOSE_HTTP_TIMEOUT=300
