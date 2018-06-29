@@ -64,4 +64,4 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - ./data/portainer:/data                                      # volume for data
     environment:
-      - PORTAINER_VERSION=1.16.5
+      - PORTAINER_VERSION=1.18.1
