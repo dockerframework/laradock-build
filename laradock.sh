@@ -265,9 +265,9 @@ docker_build() {
     ## SINGLE CONTAINER (test)
     ## ------------------------------
     ## get_time
-    ## echo "--------------------------------------------------------------------------"
+    ## print_line2
     ## echo "\033[22;32m[ $DATE ]       docker-compose build $BUILD_ENV \033[0m        "
-    ## echo "--------------------------------------------------------------------------"
+    ## print_line2
     ## docker-compose build $BUILD_ENV
     ## echo ""
   fi
