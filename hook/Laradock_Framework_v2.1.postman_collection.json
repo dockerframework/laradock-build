@@ -7,628 +7,1522 @@
 	},
 	"item": [
 		{
-			"name": "Core-Base",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/core-base/v69jnH6helMV3OWdqTbCyfSIwvQ=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"core-base",
-						"v69jnH6helMV3OWdqTbCyfSIwvQ="
-					]
+			"_postman_id": "2f4cbde0-cc38-4a78-9f09-e7b9ed0cbc67",
+			"name": "Hook Images (Badges)",
+			"item": [
+				{
+					"_postman_id": "00b3ff24-94de-4d5a-ad86-7c70250b7296",
+					"name": "Core-Base",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/core-base/v69jnH6helMV3OWdqTbCyfSIwvQ=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"core-base",
+								"v69jnH6helMV3OWdqTbCyfSIwvQ="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "f19e2c8c-d37a-40b8-8cf1-a3b7fa30d55e",
+					"name": "Core-Base-Consul",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/core-base-consul/OOqto883G1LGPbNdO2aVxxY_CDQ=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"core-base-consul",
+								"OOqto883G1LGPbNdO2aVxxY_CDQ="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "8aa3a387-f58c-4d5c-b076-a2e7723bdaee",
+					"name": "Core-Consul",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/core-consul/XAr3jYQA1o2enH2YImJ-TGO92zc=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"core-consul",
+								"XAr3jYQA1o2enH2YImJ-TGO92zc="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "6ea9f7f4-a30b-49f6-9dec-1476ed2abf2b",
+					"name": "Adminer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/adminer/fYjBODlcI7KaoClTvmsk8RgDu4E=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"adminer",
+								"fYjBODlcI7KaoClTvmsk8RgDu4E="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "259ad21f-0e87-4e71-b71d-3d88edb5e8ae",
+					"name": "Ansible",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/ansible/yWR3ILRAn11ew3M3D_2facId7pA=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"ansible",
+								"yWR3ILRAn11ew3M3D_2facId7pA="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "bd91e5fa-2eca-4a65-82ad-8e988f262d55",
+					"name": "Aerospike",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/aerospike/yE7VMrJqZMSe9h9wYwMXc3NWrYA=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"aerospike",
+								"yE7VMrJqZMSe9h9wYwMXc3NWrYA="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "86300ce8-49a8-4c78-8c40-132ce75117e8",
+					"name": "Apache2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/apache2/aM3fh-5B0OEWoDq512iqphzh5rY=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"apache2",
+								"aM3fh-5B0OEWoDq512iqphzh5rY="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "14d40025-d3b6-4359-894c-a015ecd2547e",
+					"name": "Elasticsearch",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/elasticsearch/QWAhu6O33ygBd1NHULa9idZNe20=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"elasticsearch",
+								"QWAhu6O33ygBd1NHULa9idZNe20="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "c65e37b1-6f45-46a1-adca-0844616b1b67",
+					"name": "Grafana",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/grafana/-GZ4CbiHRh3Fe9JwEtyzZHhTBmE=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"grafana",
+								"-GZ4CbiHRh3Fe9JwEtyzZHhTBmE="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "e8bad3e1-440a-4c61-b9a0-7d2c9b5cbe1c",
+					"name": "Jenkins",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/jenkins/6NsfunxFWbVozg5s0jFrYP96Dpk=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"jenkins",
+								"6NsfunxFWbVozg5s0jFrYP96Dpk="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "c60f8b84-aede-49ed-b5b3-13dd0569b74d",
+					"name": "MariaDB",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/mariadb/blSxaG63veJlw56V8kvuk-Ymf8Q=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"mariadb",
+								"blSxaG63veJlw56V8kvuk-Ymf8Q="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "674cdf8a-aea1-4535-be18-020015eca7a5",
+					"name": "Memcached",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/memcached/r6dzugFkAL9u1ioz4PdzcuTy-v4=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"memcached",
+								"r6dzugFkAL9u1ioz4PdzcuTy-v4="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "085e5c48-75dc-4282-8261-10cb4c20d88f",
+					"name": "MongoDB",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/mongodb/rJmapZtNqtmpZ4288wxCWrRPC90=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"mongodb",
+								"rJmapZtNqtmpZ4288wxCWrRPC90="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "a7d7c934-c1e1-4f10-9bb2-836e0afe5889",
+					"name": "MySQL",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/mysql/UAMDxU6dsGbXMDGQA9DyEKIEuIM=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"mysql",
+								"UAMDxU6dsGbXMDGQA9DyEKIEuIM="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "21816035-4e39-447a-8fa7-add09f976ea8",
+					"name": "NginX",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/nginx/238sS_OXDCB2t7hZ9_Qpt4Swlgk=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"nginx",
+								"238sS_OXDCB2t7hZ9_Qpt4Swlgk="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "7b76e022-0bbf-4f73-8bcc-01f8784696da",
+					"name": "NodeJS",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/nodejs/mxpuf96l83r9joC_yCZMJC7wBvM=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"nodejs",
+								"mxpuf96l83r9joC_yCZMJC7wBvM="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "6ec0fe6d-a05f-4bdf-9d7d-745228e7053d",
+					"name": "Percona",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/percona/fBTx8O_HS5nFk10daqjJ_qF1Yag=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"percona",
+								"fBTx8O_HS5nFk10daqjJ_qF1Yag="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "35d89cad-df49-483d-9c64-984a50a31345",
+					"name": "Prometheus",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/prometheus/XparpSBmWCjrUSdPTgaXi3f-1pM=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"prometheus",
+								"XparpSBmWCjrUSdPTgaXi3f-1pM="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "d6c4acc2-f2b1-446f-b843-143124fe5149",
+					"name": "PgAdmin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/pgadmin/2k2YCkeIgDQlfzwFXkNoaRsEtKk=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"pgadmin",
+								"2k2YCkeIgDQlfzwFXkNoaRsEtKk="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "139653c8-73ea-43bd-be99-87ad80027171",
+					"name": "PhpFpm",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/phpfpm/Pnnp1RTFN3QPTWRmZ-qwUt_PJVI=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"phpfpm",
+								"Pnnp1RTFN3QPTWRmZ-qwUt_PJVI="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "3b3a79c4-9965-464f-b5c3-6ec992a9366c",
+					"name": "PhpMyAdmin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/phpmyadmin/ftD2wmNrw4oRQg90hRME91MrgXI=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"phpmyadmin",
+								"ftD2wmNrw4oRQg90hRME91MrgXI="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "181d2d5c-a138-499a-b60c-05899bfe9fb6",
+					"name": "PostgreSQL",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/postgresql/7dPxFT0tlgAkvUMuSJcIQ60aIp0=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"postgresql",
+								"7dPxFT0tlgAkvUMuSJcIQ60aIp0="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "e7503716-beb7-4d33-96bc-b8398f6d28ef",
+					"name": "Portainer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/portainer/f3y072PJxVsD_kYoH23apEsGyp4=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"portainer",
+								"f3y072PJxVsD_kYoH23apEsGyp4="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "6d417eed-b466-4f83-bf65-93d08b6c16ba",
+					"name": "Redis",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/redis/rWZJAvPRuFVoCnSZbDgA4ZeWtdM=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"redis",
+								"rWZJAvPRuFVoCnSZbDgA4ZeWtdM="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "23cba87d-9ac1-4140-9000-c2cb48ec76f9",
+					"name": "Solr",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/solr/24hPvwTBE7YIu5FH9lzm4Au9KEA=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"solr",
+								"24hPvwTBE7YIu5FH9lzm4Au9KEA="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "a030f2cd-9a87-4c36-97c3-a464d27d88b3",
+					"name": "Spark",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/spark/Miu40mzB6YRDWjfDHMCaAM9aDx8=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"spark",
+								"Miu40mzB6YRDWjfDHMCaAM9aDx8="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "93964bea-c724-4e41-a9ed-383c7ff6ce11",
+					"name": "Terraform",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/terraform/Nk-HILRPKRYcHgj4v0nLpSRomD0=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"terraform",
+								"Nk-HILRPKRYcHgj4v0nLpSRomD0="
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "155ec939-e9db-45f5-9112-707d6b35e144",
+					"name": "Workspace PHPFpm",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://hooks.microbadger.com/images/dockerframework/workspace-phpfpm/xUOMPyyOJYmilHqSgQ07ADeHKfM=",
+							"protocol": "https",
+							"host": [
+								"hooks",
+								"microbadger",
+								"com"
+							],
+							"path": [
+								"images",
+								"dockerframework",
+								"workspace-phpfpm",
+								"xUOMPyyOJYmilHqSgQ07ADeHKfM="
+							]
+						}
+					},
+					"response": []
 				}
-			},
-			"response": []
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "7c66e476-97b5-49d6-8ad7-f530cc7b6e4a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "de389d3b-41c2-4366-8399-98cb4cd14a53",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
 		},
 		{
-			"name": "Core-Base-Consul",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/core-base-consul/OOqto883G1LGPbNdO2aVxxY_CDQ=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"core-base-consul",
-						"OOqto883G1LGPbNdO2aVxxY_CDQ="
-					]
+			"_postman_id": "9c9437cb-07d4-4da3-b782-970668ca54c4",
+			"name": "Build Triggers",
+			"item": [
+				{
+					"_postman_id": "576691fe-34eb-4e25-a421-98f6d099914a",
+					"name": "Core-Base",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/core-base/trigger/f5b26afa-ba19-4bf5-a93c-9bef8330b803/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"core-base",
+								"trigger",
+								"f5b26afa-ba19-4bf5-a93c-9bef8330b803",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "dc7d0ad9-ad65-4cc9-a9bc-7662fbda98d4",
+					"name": "Core-Base-Consul",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/core-base-consul/trigger/1c63cfb9-ffbb-4928-86bb-e76eba8faf8a/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"core-base-consul",
+								"trigger",
+								"1c63cfb9-ffbb-4928-86bb-e76eba8faf8a",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "a2fc6eb7-3532-4f21-9e71-3d55b63df238",
+					"name": "Core-Consul",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/core-consul/trigger/d8853394-f575-40c6-b3af-12b916e6fb97/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"core-consul",
+								"trigger",
+								"d8853394-f575-40c6-b3af-12b916e6fb97",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "10a06c76-d3e2-4c9d-a4c9-09edfa558259",
+					"name": "Adminer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/adminer/trigger/c77d1209-8b59-4a89-b3e2-97e9e786b5ae/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"adminer",
+								"trigger",
+								"c77d1209-8b59-4a89-b3e2-97e9e786b5ae",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "56861186-1ec4-4ab1-8cb6-027795a10846",
+					"name": "Ansible",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/ansible/trigger/f22e61b8-dc85-4ccc-bb9a-4e0e3f8210b2/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"ansible",
+								"trigger",
+								"f22e61b8-dc85-4ccc-bb9a-4e0e3f8210b2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "35333cdc-aefa-4589-accc-8f6b653e9393",
+					"name": "Aerospike",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/aerospike/trigger/e68068e7-367f-408a-b0b8-0879e2f3a02c/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"aerospike",
+								"trigger",
+								"e68068e7-367f-408a-b0b8-0879e2f3a02c",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "a350c8cb-2830-4e4a-ac32-2f248705ec23",
+					"name": "Apache2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/apache2/trigger/622aea8d-c63c-4484-8f19-cc3e9eeb28e9/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"apache2",
+								"trigger",
+								"622aea8d-c63c-4484-8f19-cc3e9eeb28e9",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "21ec9fae-de9e-43eb-aa7f-f64b42bf119c",
+					"name": "Elasticsearch",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/apache2/trigger/622aea8d-c63c-4484-8f19-cc3e9eeb28e9/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"apache2",
+								"trigger",
+								"622aea8d-c63c-4484-8f19-cc3e9eeb28e9",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "a03a7668-0b03-4741-a813-85587a9f28f5",
+					"name": "Grafana",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/grafana/trigger/31666785-6bd1-44e4-9d0a-42797d7a39fd/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"grafana",
+								"trigger",
+								"31666785-6bd1-44e4-9d0a-42797d7a39fd",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "f4b129c4-ed88-4a7e-ac1e-9d9d8b866cd5",
+					"name": "Jenkins",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/jenkins/trigger/69ab4b80-7d0a-4ce7-9ffa-1a81b052a229/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"jenkins",
+								"trigger",
+								"69ab4b80-7d0a-4ce7-9ffa-1a81b052a229",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "f7cac163-388a-4f12-9ff4-48ded07aedec",
+					"name": "MariaDB",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/mariadb/trigger/fbf6e818-0a4c-4adb-b57d-eb03febf3ff8/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"mariadb",
+								"trigger",
+								"fbf6e818-0a4c-4adb-b57d-eb03febf3ff8",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "a0b6d23d-7fcf-43bc-8d09-7635dea359eb",
+					"name": "Memcached",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/memcached/trigger/03f9fecd-b065-4b9f-a3ff-446d5e0cbfc6/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"memcached",
+								"trigger",
+								"03f9fecd-b065-4b9f-a3ff-446d5e0cbfc6",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "623e7eae-51bf-4aec-b27c-782ee590a2ba",
+					"name": "MongoDB",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/mongodb/trigger/8a4db931-4a24-4bfc-a17d-3bb5756188f5/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"mongodb",
+								"trigger",
+								"8a4db931-4a24-4bfc-a17d-3bb5756188f5",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "ea3cc76d-5dda-40df-b021-2484adef1abf",
+					"name": "MySQL",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/mysql/trigger/98009f85-4794-4c3c-8547-3dbf2ab37a4b/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"mysql",
+								"trigger",
+								"98009f85-4794-4c3c-8547-3dbf2ab37a4b",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "09df54e4-c31f-43e9-949b-56cbb1754f8c",
+					"name": "NginX",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/nginx/trigger/8c6ff254-8dc7-4d8c-a63f-de377bb71b77/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"nginx",
+								"trigger",
+								"8c6ff254-8dc7-4d8c-a63f-de377bb71b77",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "b305d71f-d0da-4df6-90a0-4b6eea2ba5a5",
+					"name": "NodeJS",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/nodejs/trigger/fb4a754b-05de-4922-b4e1-3caad59a4e91/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"nodejs",
+								"trigger",
+								"fb4a754b-05de-4922-b4e1-3caad59a4e91",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "4f7803cd-1a48-42d3-8f06-f370dcaacf7d",
+					"name": "Percona",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/percona/trigger/0cc17f98-bef1-4b15-b408-c6ba99190ff6/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"percona",
+								"trigger",
+								"0cc17f98-bef1-4b15-b408-c6ba99190ff6",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "4b0e0e20-dfcd-442c-99a4-70e9066c99cb",
+					"name": "Prometheus",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/prometheus/trigger/1125d567-a310-4b22-97ac-fc02084f0e5f/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"prometheus",
+								"trigger",
+								"1125d567-a310-4b22-97ac-fc02084f0e5f",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "c00d9d59-6ce1-472d-a7aa-778463564e0b",
+					"name": "PgAdmin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/pgadmin/trigger/7128f9ca-db86-4512-b60e-3927df6a7fdb/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"pgadmin",
+								"trigger",
+								"7128f9ca-db86-4512-b60e-3927df6a7fdb",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "629b8a84-0b09-4999-9a90-05296c0691c6",
+					"name": "PhpFpm",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/phpfpm/trigger/03ef7858-8143-477b-8029-4edcc8a72c4d/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"phpfpm",
+								"trigger",
+								"03ef7858-8143-477b-8029-4edcc8a72c4d",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "9d41938f-d01a-4731-a521-dc2efdf92d2a",
+					"name": "PhpMyAdmin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/phpmyadmin/trigger/92560ab4-8704-4454-81bb-8e250dc26443/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"phpmyadmin",
+								"trigger",
+								"92560ab4-8704-4454-81bb-8e250dc26443",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "fe1fbde2-d739-4d46-bcff-8bf8e6f79349",
+					"name": "PostgreSQL",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/postgresql/trigger/aa7693c2-fe06-4f1f-bbfe-e81269fdbc1e/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"postgresql",
+								"trigger",
+								"aa7693c2-fe06-4f1f-bbfe-e81269fdbc1e",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "0f9aabb0-fe0a-4022-9ae0-2132c4452195",
+					"name": "Portainer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/portainer/trigger/71c03604-31ca-42f4-883b-c5e79aad3c99/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"portainer",
+								"trigger",
+								"71c03604-31ca-42f4-883b-c5e79aad3c99",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "5d159c0c-4b96-48dd-b869-60e75cbea2df",
+					"name": "Redis",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/redis/trigger/542acfc3-ad36-41e2-bb24-84add4b2fbcf/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"redis",
+								"trigger",
+								"542acfc3-ad36-41e2-bb24-84add4b2fbcf",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "a87792b7-3c97-4740-b0f4-83cce55307cb",
+					"name": "Solr",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/solr/trigger/6679d9a9-057c-49cf-814e-dcd21136a67f/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"solr",
+								"trigger",
+								"6679d9a9-057c-49cf-814e-dcd21136a67f",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "5a6c6107-e985-401e-b252-2635c56f226c",
+					"name": "Spark",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/spark/trigger/2e6038ae-eb8e-4edc-9ab4-47638e57892b/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"spark",
+								"trigger",
+								"2e6038ae-eb8e-4edc-9ab4-47638e57892b",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "cd35d018-b9e6-407c-af53-d45731300715",
+					"name": "Terraform",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/terraform/trigger/4eb77d85-c85d-4dcb-adad-80884608c87e/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"terraform",
+								"trigger",
+								"4eb77d85-c85d-4dcb-adad-80884608c87e",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "01cce46c-371b-47d2-8227-65a4c36de6d3",
+					"name": "Workspace PhpFpm",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://registry.hub.docker.com/u/dockerframework/workspace-phpfpm/trigger/cece553e-29ed-467c-94ec-eae0774495bf/",
+							"protocol": "https",
+							"host": [
+								"registry",
+								"hub",
+								"docker",
+								"com"
+							],
+							"path": [
+								"u",
+								"dockerframework",
+								"workspace-phpfpm",
+								"trigger",
+								"cece553e-29ed-467c-94ec-eae0774495bf",
+								""
+							]
+						}
+					},
+					"response": []
 				}
-			},
-			"response": []
-		},
-		{
-			"name": "Core-Consul",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/core-consul/XAr3jYQA1o2enH2YImJ-TGO92zc=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"core-consul",
-						"XAr3jYQA1o2enH2YImJ-TGO92zc="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Adminer",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/adminer/fYjBODlcI7KaoClTvmsk8RgDu4E=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"adminer",
-						"fYjBODlcI7KaoClTvmsk8RgDu4E="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Aerospike",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/aerospike/yE7VMrJqZMSe9h9wYwMXc3NWrYA=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"aerospike",
-						"yE7VMrJqZMSe9h9wYwMXc3NWrYA="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Apache2",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/apache2/aM3fh-5B0OEWoDq512iqphzh5rY=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"apache2",
-						"aM3fh-5B0OEWoDq512iqphzh5rY="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Elasticsearch",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/elasticsearch/QWAhu6O33ygBd1NHULa9idZNe20=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"elasticsearch",
-						"QWAhu6O33ygBd1NHULa9idZNe20="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Grafana",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/grafana/-GZ4CbiHRh3Fe9JwEtyzZHhTBmE=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"grafana",
-						"-GZ4CbiHRh3Fe9JwEtyzZHhTBmE="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "MariaDB",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/mariadb/blSxaG63veJlw56V8kvuk-Ymf8Q=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"mariadb",
-						"blSxaG63veJlw56V8kvuk-Ymf8Q="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Memcached",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/memcached/r6dzugFkAL9u1ioz4PdzcuTy-v4=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"memcached",
-						"r6dzugFkAL9u1ioz4PdzcuTy-v4="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "MongoDB",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/mongodb/rJmapZtNqtmpZ4288wxCWrRPC90=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"mongodb",
-						"rJmapZtNqtmpZ4288wxCWrRPC90="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "MySQL",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/mysql/UAMDxU6dsGbXMDGQA9DyEKIEuIM=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"mysql",
-						"UAMDxU6dsGbXMDGQA9DyEKIEuIM="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "NginX",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/nginx/238sS_OXDCB2t7hZ9_Qpt4Swlgk=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"nginx",
-						"238sS_OXDCB2t7hZ9_Qpt4Swlgk="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "NodeJS",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/nodejs/mxpuf96l83r9joC_yCZMJC7wBvM=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"nodejs",
-						"mxpuf96l83r9joC_yCZMJC7wBvM="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Percona",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/percona/fBTx8O_HS5nFk10daqjJ_qF1Yag=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"percona",
-						"fBTx8O_HS5nFk10daqjJ_qF1Yag="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Prometheus",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/prometheus/XparpSBmWCjrUSdPTgaXi3f-1pM=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"prometheus",
-						"XparpSBmWCjrUSdPTgaXi3f-1pM="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "PgAdmin",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/pgadmin/2k2YCkeIgDQlfzwFXkNoaRsEtKk=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"pgadmin",
-						"2k2YCkeIgDQlfzwFXkNoaRsEtKk="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "PhpFpm",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/phpfpm/Pnnp1RTFN3QPTWRmZ-qwUt_PJVI=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"phpfpm",
-						"Pnnp1RTFN3QPTWRmZ-qwUt_PJVI="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "PhpMyAdmin",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/phpmyadmin/ftD2wmNrw4oRQg90hRME91MrgXI=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"phpmyadmin",
-						"ftD2wmNrw4oRQg90hRME91MrgXI="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "PostgreSQL",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/postgresql/7dPxFT0tlgAkvUMuSJcIQ60aIp0=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"postgresql",
-						"7dPxFT0tlgAkvUMuSJcIQ60aIp0="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Portainer",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/portainer/f3y072PJxVsD_kYoH23apEsGyp4=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"portainer",
-						"f3y072PJxVsD_kYoH23apEsGyp4="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Redis",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/redis/rWZJAvPRuFVoCnSZbDgA4ZeWtdM=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"redis",
-						"rWZJAvPRuFVoCnSZbDgA4ZeWtdM="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Solr",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/solr/24hPvwTBE7YIu5FH9lzm4Au9KEA=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"solr",
-						"24hPvwTBE7YIu5FH9lzm4Au9KEA="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Spark",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/spark/Miu40mzB6YRDWjfDHMCaAM9aDx8=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"spark",
-						"Miu40mzB6YRDWjfDHMCaAM9aDx8="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Terraform",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/terraform/Nk-HILRPKRYcHgj4v0nLpSRomD0=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"terraform",
-						"Nk-HILRPKRYcHgj4v0nLpSRomD0="
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Workspace PHPFpm",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://hooks.microbadger.com/images/dockerframework/workspace-phpfpm/xUOMPyyOJYmilHqSgQ07ADeHKfM=",
-					"protocol": "https",
-					"host": [
-						"hooks",
-						"microbadger",
-						"com"
-					],
-					"path": [
-						"images",
-						"dockerframework",
-						"workspace-phpfpm",
-						"xUOMPyyOJYmilHqSgQ07ADeHKfM="
-					]
-				}
-			},
-			"response": []
+			]
 		}
 	],
 	"event": [
