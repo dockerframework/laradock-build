@@ -38,15 +38,16 @@ services:
     restart: always
     image: dockerframework/grafana
     ports:
-      - "9100:3000"
+      - "8120:3000"
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /data/grafana:/var/lib/grafana                             # volume for data
     environment:
-      - GRAFANA_VERSION=5.1.3
-      - GF_SERVER_ROOT_URL=http://localhost:9100
+      - GRAFANA_VERSION=5.2.2
+      - GF_SERVER_ROOT_URL=http://localhost:8120
+      - GF_SECURITY_ADMIN_USER=laradock
       - GF_SECURITY_ADMIN_PASSWORD=password
-      - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource,grafana-worldmap-panel,alexanderzobnin-zabbix-app
+      - GF_INSTALL_PLUGINS=alexanderzobnin-zabbix-app,cloudflare-app,crate-datasource,digiapulssi-breadcrumb-panel,grafana-azure-monitor-datasource,grafana-clock-panel,grafana-simple-json-datasource,grafana-kubernetes-app,grafana-worldmap-panel,percona-percona-app,raintank-worldping-app
       # - GF_AWS_PROFILES=default
       # - GF_AWS_default_ACCESS_KEY_ID=YOUR_ACCESS_KEY
       # - GF_AWS_default_SECRET_ACCESS_KEY=YOUR_SECRET_KEY

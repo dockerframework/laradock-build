@@ -7,11 +7,11 @@
 	},
 	"item": [
 		{
-			"_postman_id": "3c55d632-995c-4e35-b38f-2a0f725cdb4a",
+			"_postman_id": "a90a0a32-dce3-4340-b679-a1fee650e7f1",
 			"name": "Hook Images (Badges)",
 			"item": [
 				{
-					"_postman_id": "c1dc11f1-1d52-4839-91ba-a63225ae1989",
+					"_postman_id": "5ce5de71-0f81-46b6-92ce-83f98d67e23a",
 					"name": "Core-Base",
 					"request": {
 						"method": "POST",
@@ -22,7 +22,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "656f94f2-ab52-42a6-90ad-f159db6de6c7",
+					"_postman_id": "e0293ecb-ede2-4dbb-b080-7a8dbc0349dd",
 					"name": "Core-Base-Consul",
 					"request": {
 						"method": "POST",
@@ -33,7 +33,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "ea7e286d-9856-4069-a19d-1ab51ad2a854",
+					"_postman_id": "9f966120-243a-4f93-8688-566c48dacafb",
 					"name": "Core-Consul",
 					"request": {
 						"method": "POST",
@@ -44,7 +44,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "e8ee1c12-2b39-451c-ae99-c1a74d7ae5ee",
+					"_postman_id": "27b6b77e-b452-451a-b14a-818b8067f5d8",
 					"name": "Adminer",
 					"request": {
 						"method": "POST",
@@ -55,7 +55,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "ea550bf7-0e9c-4938-8fc9-41fbef630043",
+					"_postman_id": "19b10854-7ffa-4897-b8e8-8aa5316f9cad",
 					"name": "Ansible",
 					"request": {
 						"method": "POST",
@@ -66,7 +66,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "c7adf7f7-f47b-4bc4-a02f-2e6bdc304b65",
+					"_postman_id": "a66c98d8-1e75-4df5-99eb-5cc837ea9546",
 					"name": "Aerospike",
 					"request": {
 						"method": "POST",
@@ -77,7 +77,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "79a4fe09-60fb-45d2-9ab9-aa80e1f5edf2",
+					"_postman_id": "65fe8ff8-ec56-4d38-ab9b-f132779a0ec9",
 					"name": "Apache2",
 					"request": {
 						"method": "POST",
@@ -88,7 +88,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "e3c8f723-92de-451d-8964-54e95cf8ef85",
+					"_postman_id": "7b1317ee-8fef-4734-8b4a-787c211b0861",
 					"name": "Elasticsearch",
 					"request": {
 						"method": "POST",
@@ -99,7 +99,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "d20f3bac-a80f-4e45-9e1c-75a5d3e5aa72",
+					"_postman_id": "d14882dd-bfa6-4b02-af9c-b7d8e55673fe",
 					"name": "Grafana",
 					"request": {
 						"method": "POST",
@@ -110,7 +110,18 @@
 					"response": []
 				},
 				{
-					"_postman_id": "d5843e5c-cc0f-457d-bf1c-5f0a2c33f78f",
+					"_postman_id": "df83562e-cce4-4ed8-958e-1791fd30e6b0",
+					"name": "Golang",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": "https://hooks.microbadger.com/images/dockerframework/golang/YJY3sZdfKrxNQWlyGZvd0UeLt-M="
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "5080ef3d-eda0-4ca1-a7fa-458cb5eef877",
 					"name": "Jenkins",
 					"request": {
 						"method": "POST",
@@ -121,7 +132,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "240c2099-4ed0-43bf-b322-7573cf9eb3c5",
+					"_postman_id": "e77c6a36-2b02-4346-b2ae-68945ca87256",
 					"name": "MariaDB",
 					"request": {
 						"method": "POST",
@@ -132,7 +143,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "6d0fd834-f4d1-4a4f-8e50-87f69f12c4a4",
+					"_postman_id": "0629f264-b913-4e92-9791-469a5e19bdf3",
 					"name": "Memcached",
 					"request": {
 						"method": "POST",
@@ -143,7 +154,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "18518c49-d36f-4554-92fa-a526f9de9d15",
+					"_postman_id": "0421bc66-6587-411d-b89b-c3e7661446c0",
 					"name": "MongoDB",
 					"request": {
 						"method": "POST",
@@ -154,7 +165,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "a9cd2743-58e7-4d5c-afb7-d4f2ff25bf36",
+					"_postman_id": "f94426e7-7998-4c9b-b022-bfc6a45955f7",
 					"name": "MySQL",
 					"request": {
 						"method": "POST",
@@ -165,7 +176,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "1dfbabb5-3c8a-4cd1-9bde-19d298c93054",
+					"_postman_id": "0e8dcaf2-303b-47ec-bc3b-dcf9a48ef5ce",
 					"name": "NginX",
 					"request": {
 						"method": "POST",
@@ -176,7 +187,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "b30fc798-642e-4cb4-8e25-d8f73b46c10f",
+					"_postman_id": "4b0b4587-e59e-4079-8900-48a6a0f6e72a",
 					"name": "NodeJS",
 					"request": {
 						"method": "POST",
@@ -187,7 +198,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "abc2225d-3bb8-40de-9ee6-ece69a2902b8",
+					"_postman_id": "09c0df59-f677-4f65-917f-de3c5f59c445",
 					"name": "Percona",
 					"request": {
 						"method": "POST",
@@ -198,7 +209,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "d18ff5f9-74c3-4c61-a02b-5ea63e8d4a49",
+					"_postman_id": "cbf2f214-2972-44f5-9091-3873f1e6e129",
 					"name": "Prometheus",
 					"request": {
 						"method": "POST",
@@ -209,7 +220,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "760ebe84-d26f-464e-acb0-6005e248731e",
+					"_postman_id": "9127f519-732e-48fb-b464-233b37e7550f",
 					"name": "PgAdmin",
 					"request": {
 						"method": "POST",
@@ -220,7 +231,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "4ecfb1eb-9b28-4c32-ad40-e358f9c3e8e2",
+					"_postman_id": "6bbb0420-147e-495b-ac1c-f515bcbddf08",
 					"name": "PhpFpm",
 					"request": {
 						"method": "POST",
@@ -231,7 +242,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "1f952a00-9fe4-42f1-bedb-b7c34f8cd7e1",
+					"_postman_id": "cc122c8c-a656-4210-a843-fde2c35cb3f7",
 					"name": "PhpMyAdmin",
 					"request": {
 						"method": "POST",
@@ -242,7 +253,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "3c571922-61ce-4e72-8744-b8ee964e7df0",
+					"_postman_id": "2b411b05-87a1-4e70-8c9c-dda304b4415a",
 					"name": "PostgreSQL",
 					"request": {
 						"method": "POST",
@@ -253,7 +264,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "7d19fb13-1564-424d-8170-6ccb61bbcc19",
+					"_postman_id": "3131a707-ae62-477c-8f01-5b51830dcbbe",
 					"name": "Portainer",
 					"request": {
 						"method": "POST",
@@ -264,7 +275,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "506e7143-7ec0-413a-858e-edc0e36193ba",
+					"_postman_id": "723fcc2f-c2dc-4d88-93bc-60d46a92929e",
 					"name": "Redis",
 					"request": {
 						"method": "POST",
@@ -275,7 +286,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "1db348f1-d483-4cc5-b75b-a6def4c2658c",
+					"_postman_id": "d4f8be75-d68a-4680-8d5d-745a0fcb1111",
 					"name": "Solr",
 					"request": {
 						"method": "POST",
@@ -286,7 +297,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "97630a4c-244c-4962-9dfc-c4aa9a6b5ca6",
+					"_postman_id": "3c8adbb9-b382-4334-8e63-d1495cbf932a",
 					"name": "Spark",
 					"request": {
 						"method": "POST",
@@ -297,7 +308,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "9d12547e-f943-45fd-a528-6e0e53777aa7",
+					"_postman_id": "c5405f9f-c0b2-41b3-9aa1-b121365bf703",
 					"name": "Terraform",
 					"request": {
 						"method": "POST",
@@ -308,7 +319,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "3144cab2-5ad4-481e-8205-11237e91e18d",
+					"_postman_id": "780e6041-99e0-48d2-91ab-ff6051542dad",
 					"name": "Workspace PHPFpm",
 					"request": {
 						"method": "POST",
@@ -343,11 +354,11 @@
 			]
 		},
 		{
-			"_postman_id": "4c5e874b-b65a-4e0e-8df4-64c57702870f",
+			"_postman_id": "797fa7b1-70a4-4d50-81bc-e592d8ffc590",
 			"name": "Build Triggers",
 			"item": [
 				{
-					"_postman_id": "3d68b1b5-429e-477d-97ad-f2b26a5caeb5",
+					"_postman_id": "e796e11c-7425-4022-a463-7c30d5dcc8f7",
 					"name": "Core-Base",
 					"request": {
 						"method": "POST",
@@ -358,7 +369,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "a835d40f-e3ae-45ab-862f-f9d6561d2a92",
+					"_postman_id": "683ab85b-0db1-459a-924a-35885949962d",
 					"name": "Core-Base-Consul",
 					"request": {
 						"method": "POST",
@@ -369,7 +380,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "8d224073-422f-4d2c-8d18-1b9f75aa0999",
+					"_postman_id": "33e607c5-156c-4905-918c-9091514de2d1",
 					"name": "Core-Consul",
 					"request": {
 						"method": "POST",
@@ -380,7 +391,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "5c10bad4-eaec-4807-aea5-b3b60fe8959b",
+					"_postman_id": "2cfec0a5-d5d6-484d-a1ef-00638fb1b18c",
 					"name": "Adminer",
 					"request": {
 						"method": "POST",
@@ -391,7 +402,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "ef3f12c1-179d-44a9-bfc0-13d179cad1c7",
+					"_postman_id": "1e15b475-1d56-4aaf-a991-f38adf8b6960",
 					"name": "Ansible",
 					"request": {
 						"method": "POST",
@@ -402,7 +413,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "b750c2e5-99c5-444c-a389-9858b158bc8c",
+					"_postman_id": "d0cf1ad5-200a-407e-9e27-2517ae0c0bcf",
 					"name": "Aerospike",
 					"request": {
 						"method": "POST",
@@ -413,7 +424,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "2e8e2906-69c5-464b-ab19-af19d1c17700",
+					"_postman_id": "ec8e0e91-113a-4869-9274-6a42523183c6",
 					"name": "Apache2",
 					"request": {
 						"method": "POST",
@@ -424,7 +435,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "e8916e88-98ca-4ebb-9479-888d17105ec1",
+					"_postman_id": "e2704a05-0c6d-4df1-b948-0c5242fe2624",
 					"name": "Elasticsearch",
 					"request": {
 						"method": "POST",
@@ -435,7 +446,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "6e169735-413d-4b93-9f0b-ae3d811c29be",
+					"_postman_id": "a6f7d069-f161-4323-aaac-5dc44f3bb9ff",
 					"name": "Grafana",
 					"request": {
 						"method": "POST",
@@ -446,7 +457,18 @@
 					"response": []
 				},
 				{
-					"_postman_id": "5ed210a8-3dc9-44ab-974c-10735fa980d8",
+					"_postman_id": "f9aae0b2-30ae-4620-af1f-5db0885b1934",
+					"name": "Golang",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": "https://registry.hub.docker.com/u/dockerframework/golang/trigger/99decded-623d-49db-8bb9-d55dab03785d/"
+					},
+					"response": []
+				},
+				{
+					"_postman_id": "76ec725a-28b6-4983-af60-64fecac09586",
 					"name": "Jenkins",
 					"request": {
 						"method": "POST",
@@ -457,7 +479,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "38908311-af96-48c5-ab9d-c4b1e120c6ea",
+					"_postman_id": "ce441192-a4a0-44bb-9ed9-ad158cf4f276",
 					"name": "MariaDB",
 					"request": {
 						"method": "POST",
@@ -468,7 +490,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "0e03cf86-75ee-4822-b4d6-bee3532bec61",
+					"_postman_id": "8257c15e-7a2f-49c5-8c2f-4209ff35cf59",
 					"name": "Memcached",
 					"request": {
 						"method": "POST",
@@ -479,7 +501,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "4128e237-5937-49cc-988c-abf2ed124e42",
+					"_postman_id": "c9c0c309-9e9b-40b1-ac62-02a2a917bd73",
 					"name": "MongoDB",
 					"request": {
 						"method": "POST",
@@ -490,7 +512,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "7b03e0ed-b9b7-4ac4-b393-9efee28c9a8d",
+					"_postman_id": "d9980cce-e13e-44fe-9607-0ceecd977c50",
 					"name": "MySQL",
 					"request": {
 						"method": "POST",
@@ -501,7 +523,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "4c4243d3-3844-450f-adc2-bdbec627c282",
+					"_postman_id": "61e39828-58fb-4731-bb77-beca1edf1054",
 					"name": "NginX",
 					"request": {
 						"method": "POST",
@@ -512,7 +534,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "88df33c6-c393-42c4-b50d-01932fc45f0e",
+					"_postman_id": "fd832a80-bc1a-498a-afd5-cd7acf9c369d",
 					"name": "NodeJS",
 					"request": {
 						"method": "POST",
@@ -523,7 +545,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "0d1d0cae-98cd-4283-89a4-99ae33236154",
+					"_postman_id": "03f11ba2-8dea-4017-ad02-46d4697efa63",
 					"name": "Percona",
 					"request": {
 						"method": "POST",
@@ -534,7 +556,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "2e188d13-7432-421f-a311-f0499b3bf08f",
+					"_postman_id": "e4226886-6744-40fd-8af6-88cadbc2bf62",
 					"name": "Prometheus",
 					"request": {
 						"method": "POST",
@@ -545,7 +567,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "ea0fce72-4a9e-4d3f-ade1-07108fc268aa",
+					"_postman_id": "da7c6df4-e3ea-4be8-87cf-b168a319e501",
 					"name": "PgAdmin",
 					"request": {
 						"method": "POST",
@@ -556,7 +578,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "e785538a-ee53-4d1b-b763-9fc9de547040",
+					"_postman_id": "a729af92-a63c-4b5a-8ea8-c6be324607c8",
 					"name": "PhpFpm",
 					"request": {
 						"method": "POST",
@@ -567,7 +589,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "ba1aee60-62d3-448f-98f4-5aa7ad3b6137",
+					"_postman_id": "37bb8d93-5baf-4ad0-9980-29d7bc6c9711",
 					"name": "PhpMyAdmin",
 					"request": {
 						"method": "POST",
@@ -578,7 +600,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "060d6806-79e8-4900-8acb-fbcf1f6f9576",
+					"_postman_id": "e3004032-898b-407e-9c94-7da215466cbb",
 					"name": "PostgreSQL",
 					"request": {
 						"method": "POST",
@@ -589,7 +611,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "1c12168e-9cce-438a-b618-9ba486f05faf",
+					"_postman_id": "d58b56f8-cbe5-406c-b79f-4c94c7dec717",
 					"name": "Portainer",
 					"request": {
 						"method": "POST",
@@ -600,7 +622,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "0245fa40-e650-4868-bfd4-ec01f821a8a6",
+					"_postman_id": "67f8b724-d3af-4a70-8d37-3bd5b98b00ce",
 					"name": "Redis",
 					"request": {
 						"method": "POST",
@@ -611,7 +633,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "cfe85874-9833-4c46-96d8-c4e86afcded8",
+					"_postman_id": "661e5ecc-23e6-4f60-b1ae-004a6c562bcd",
 					"name": "Solr",
 					"request": {
 						"method": "POST",
@@ -622,7 +644,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "2c32aadf-7ff3-4445-bd47-5d12cbe5c9ef",
+					"_postman_id": "76211a9c-780a-40d7-b06a-5e348c8e6eec",
 					"name": "Spark",
 					"request": {
 						"method": "POST",
@@ -633,7 +655,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "6dea5b63-8c3e-473a-920b-c9eda4256f0f",
+					"_postman_id": "a7afbc91-7166-447a-815c-49993d3cb179",
 					"name": "Terraform",
 					"request": {
 						"method": "POST",
@@ -644,7 +666,7 @@
 					"response": []
 				},
 				{
-					"_postman_id": "cdb17197-4e59-45a9-9fd7-e6510cf12b82",
+					"_postman_id": "97b8d018-129a-42a4-b8c5-99a4f9494c77",
 					"name": "Workspace PhpFpm",
 					"request": {
 						"method": "POST",

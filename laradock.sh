@@ -145,6 +145,19 @@ PATH_HOME=`echo $HOME`
 ## |   8307   |     9090   |  prometheus                      |
 ## |   8308   |     9091   |  pushgateway                     |
 ## +----------+------------+----------------------------------+
+## |   8400   |     3000   |  ansible                         |
+## +----------+------------+----------------------------------+
+## |   8401   |     8080   |  jenkins master (web ui)         |
+## |   8402   |    50000   |  jenkins slave                   |
+## +----------+------------+----------------------------------+
+## |   8501   |     8089   |  locust master & slave           |
+## |   8502   |     5557   |  locust master                   |
+## |   8503   |     5558   |  locust master                   |
+## |   8504   |    50671   |  locust slave                    |
+## |   8505   |    50672   |  locust slave                    |
+## +----------+------------+----------------------------------+
+## |   8601   |       22   |  golang                          |
+## +----------+------------+----------------------------------+
 ## |   9901   |       80   |  workspace (phpfpm)              |
 ## |   9902   |     9090   |  workspace (xdebug)              |
 ## +----------+------------+----------------------------------+
@@ -154,8 +167,8 @@ PATH_HOME=`echo $HOME`
 ##  - Container "grafana"
 ##  - Container "portainer"
 
-CONTAINER_PRODUCTION="consul workspace grafana nginx adminer aerospike elasticsearch mariadb memcached mongodb mysql percona pgadmin phpfpm phpmyadmin portainer postgresql redis solr spark terraform"
-CONTAINER_DEVELOPMENT="consul alertmanager caddy cadvisor grafana nodeexporter portainer prometheus pushgateway"
+CONTAINER_PRODUCTION="consul workspace grafana nginx adminer aerospike elasticsearch mariadb memcached mongodb mysql percona pgadmin phpfpm phpmyadmin portainer postgresql redis solr spark terraform ansible jenkins golang locust-master locust-slave"
+CONTAINER_DEVELOPMENT="consul alertmanager caddy cadvisor grafana nodeexporter portainer prometheus pushgateway ansible jenkins golang"
 
 export DOCKER_CLIENT_TIMEOUT=300
 export COMPOSE_HTTP_TIMEOUT=300
