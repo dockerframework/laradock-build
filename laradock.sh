@@ -8,12 +8,12 @@
 # -----------------------------------------------------------------------------
 
 TITLE="LARADOCK BUILDER SCRIPT"      # script name
-VER="1.4.4"                               # script version
-ENV="0"                                   # container environment (0 = development, 1 = production)
-SKIP_BUILD="0"                            # (0 = with build process, 1 = bypass build process)
-REMOVE_CACHE="0"                          # (0 = using cache, 1 = no-cache)
-RECREATE_CONTAINER="0"                    # (0 = disable recreate container, 1 = force recreate container)
-DAEMON_MODE="1"                           # (0 = disable daemon mode, 1 = running daemon mode / background)
+VER="1.4.4"                          # script version
+ENV="0"                              # container environment (0 = development, 1 = production)
+SKIP_BUILD="0"                       # (0 = with build process, 1 = bypass build process)
+REMOVE_CACHE="0"                     # (0 = using cache, 1 = no-cache)
+RECREATE_CONTAINER="0"               # (0 = disable recreate container, 1 = force recreate container)
+DAEMON_MODE="1"                      # (0 = disable daemon mode, 1 = running daemon mode / background)
 
 USERNAME=`echo $USER`
 PATH_HOME=`echo $HOME`
