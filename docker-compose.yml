@@ -7,6 +7,7 @@ services:
 #================================================================================================
   consul:
     image: dockerframework/core-consul
+    container_name: dockerframework_consul
     ports:
       - "8300:8300"       # server RPC
       - "8301:8301"       # serf LAN
@@ -35,15 +36,16 @@ services:
 # GRAFANA
 #================================================================================================
   grafana:
-    restart: always
+    restart: unless-stopped
     image: dockerframework/grafana
+    container_name: dockerframework_grafana
     ports:
       - "8120:3000"
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /data/grafana:/var/lib/grafana                             # volume for data
     environment:
-      - GRAFANA_VERSION=5.2.2
+      - GRAFANA_VERSION=5.3.4
       - GF_SERVER_ROOT_URL=http://localhost:8120
       - GF_SECURITY_ADMIN_USER=laradock
       - GF_SECURITY_ADMIN_PASSWORD=password
@@ -57,8 +59,9 @@ services:
 # PORTAINER
 #================================================================================================
   portainer:
-    restart: always
+    restart: unless-stopped
     image: dockerframework/portainer
+    container_name: dockerframework_portainer
     ports:
       - "8119:9000"
     volumes:
@@ -66,3 +69,28 @@ services:
       - ./data/portainer:/data                                      # volume for data
     environment:
       - PORTAINER_VERSION=1.18.1
+
+#================================================================================================
+# PROMETHEUS
+#================================================================================================
+  prometheus:
+    restart: unless-stopped
+    image: dockerframework/prometheus
+    container_name: dockerframework_prometheus
+    volumes:
+      - ./config/prometheus/alert.rules:/etc/prometheus/alert.rules
+      - ./config/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./data/prometheus:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention=200h'
+      - '--web.enable-lifecycle'
+    ports:
+      - "8307:9090"
+    labels:
+      org.label-schema.group: "monitoring"
+    environment:
+      - PROMETHEUS_VERSION=2.5.0

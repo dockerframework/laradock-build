@@ -52,7 +52,7 @@ services:
       - GF_AWS_default_ACCESS_KEY_ID=${GF_AWS_default_ACCESS_KEY_ID}
       - GF_AWS_default_SECRET_ACCESS_KEY=${GF_AWS_default_SECRET_ACCESS_KEY}
       - GF_AWS_default_REGION=${GF_AWS_default_REGION}
-            
+
 #================================================================================================
 # PORTAINER
 #================================================================================================
@@ -68,3 +68,28 @@ services:
       - ${DATA_PORTAINER}:/data                                      # volume for data
     environment:
       - PORTAINER_VERSION=${PORTAINER_VERSION}
+
+#================================================================================================
+# PROMETHEUS
+#================================================================================================
+  prometheus:
+    restart: unless-stopped
+    image: dockerframework/prometheus
+    container_name: dockerframework_prometheus
+    volumes:
+      - ${CONFIG_PROMETHEUS}/alert.rules:/etc/prometheus/alert.rules
+      - ${CONFIG_PROMETHEUS}/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ${DATA_PROMETHEUS}:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention=200h'
+      - '--web.enable-lifecycle'
+    ports:
+      - "8307:9090"
+    labels:
+      org.label-schema.group: "monitoring"
+    environment:
+      - PROMETHEUS_VERSION=${PROMETHEUS_VERSION}
