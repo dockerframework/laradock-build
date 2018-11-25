@@ -24,5 +24,4 @@ before_install:
   - sleep 3
 
 script:
-  - ./laradock.sh
-  
+  - ./docker-build.sh
