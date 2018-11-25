@@ -1,7 +1,29 @@
-version: '3.2'
+version: '2'
+
+#================================================================================================
+# NETWORK SETUP
+#================================================================================================
+networks:
+  dockerframework-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.212.0.0/16      # 65534 Hosts / Net
+          ip_range: 172.212.5.0/24
+          gateway: 172.212.5.254
+
+#================================================================================================
+# VOLUME SETUP
+#================================================================================================
+volumes:
+  grafana:
+    driver: local
+  portainer:
+    driver: local
+  prometheus:
+    driver: local
 
 services:
-
 #================================================================================================
 # CORE-CONSUL
 #================================================================================================
@@ -31,6 +53,73 @@ services:
       - CONSUL_TLSCAFILE=/etc/consul.d/ssl/ca.pem                         # TLS CA certificate file
       - CONSUL_TLSCERTFILE=/etc/consul.d/ssl/server.pem                   # TLS server certificate file
       - CONSUL_TLSKEYFILE=/etc/consul.d/ssl/server-priv-key.pem           # TLS server certificate key file
+    labels:
+      org.label-schema.group: "monitoring"
+    networks:
+      dockerframework-net:
+        ipv4_address: 172.212.0.4
+
+#================================================================================================
+# ALERTMANAGER
+#================================================================================================
+  alertmanager:
+    restart: unless-stopped
+    image: prom/alertmanager:v0.14.0
+    container_name: dockerframework_alertmanager
+    volumes:
+      - ./config/alertmanager/:/etc/alertmanager/
+    command:
+      - '--config.file=/etc/alertmanager/config.yml'
+      - '--storage.path=/alertmanager'
+    ports:
+      - "${ALERTMANAGER_PORT}:9093"
+    networks:
+      dockerframework-net:
+        ipv4_address: 172.212.0.5
+
+#================================================================================================
+# CADDY
+#================================================================================================
+  caddy:
+    restart: unless-stopped
+    image: stefanprodan/caddy
+    container_name: dockerframework_caddy
+    ports:
+      - "8001:3000"
+      - "8002:9090"
+      - "8003:9091"
+      - "8004:9093"
+    volumes:
+      - ./config/caddy/:/etc/caddy/
+    environment:
+      - ADMIN_USER=laradock
+      - ADMIN_PASSWORD=password
+    labels:
+      org.label-schema.group: "monitoring"
+    networks:
+      dockerframework-net:
+        ipv4_address: 172.212.0.6
+
+#================================================================================================
+# CADVISOR
+#================================================================================================
+  cadvisor:
+    restart: unless-stopped
+    image: google/cadvisor:v0.28.3
+    container_name: dockerframework_cadvisor
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /cgroup:/cgroup:ro #doesn't work on MacOS only for Linux
+    ports:
+      - "8005:3000"
+    labels:
+      org.label-schema.group: "monitoring"
+    networks:
+      dockerframework-net:
+        ipv4_address: 172.212.0.7
 
 #================================================================================================
 # GRAFANA
@@ -40,7 +129,7 @@ services:
     image: dockerframework/grafana
     container_name: dockerframework_grafana
     ports:
-      - "8120:3000"
+      - "8006:3000"
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /data/grafana:/var/lib/grafana                             # volume for data
@@ -54,6 +143,34 @@ services:
       # - GF_AWS_default_ACCESS_KEY_ID=YOUR_ACCESS_KEY
       # - GF_AWS_default_SECRET_ACCESS_KEY=YOUR_SECRET_KEY
       # - GF_AWS_default_REGION=us-east-1
+    labels:
+      org.label-schema.group: "monitoring"
+    networks:
+      dockerframework-net:
+        ipv4_address: 172.212.0.8
+
+#================================================================================================
+# NODEEXPORTER
+#================================================================================================
+  nodeexporter:
+    image: prom/node-exporter:v0.15.2
+    container_name: dockerframework_nodeexporter
+    user: root
+    privileged: true
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - '--collector.filesystem.ignored-mount-points=^/(sys|proc|dev|host|etc)($$|/)'
+    restart: unless-stopped
+    ports:
+      - "9100:9100"
+    networks:
+      dockerframework-net:
+        ipv4_address: 172.212.0.9
 
 #================================================================================================
 # PORTAINER
@@ -63,12 +180,17 @@ services:
     image: dockerframework/portainer
     container_name: dockerframework_portainer
     ports:
-      - "8119:9000"
+      - "8007:9000"
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./data/portainer:/data                                      # volume for data
     environment:
-      - PORTAINER_VERSION=1.18.1
+      - PORTAINER_VERSION=1.19.2
+    labels:
+      org.label-schema.group: "monitoring"
+    networks:
+      dockerframework-net:
+        ipv4_address: 172.212.0.10
 
 #================================================================================================
 # PROMETHEUS
@@ -89,8 +211,26 @@ services:
       - '--storage.tsdb.retention=200h'
       - '--web.enable-lifecycle'
     ports:
-      - "8307:9090"
-    labels:
-      org.label-schema.group: "monitoring"
+      - "8008:9090"
     environment:
       - PROMETHEUS_VERSION=2.5.0
+    labels:
+      org.label-schema.group: "monitoring"
+    networks:
+      dockerframework-net:
+        ipv4_address: 172.212.0.11
+
+#================================================================================================
+# PUSHGATEWAY
+#================================================================================================
+  pushgateway:
+    restart: unless-stopped
+    image: prom/pushgateway
+    container_name: dockerframework_pushgateway
+    ports:
+      - "8009:9091"
+    labels:
+      org.label-schema.group: "monitoring"
+    networks:
+      dockerframework-net:
+        ipv4_address: 172.212.0.19

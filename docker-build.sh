@@ -155,7 +155,7 @@ PATH_HOME=`echo $HOME`
 ##  - Container "portainer"
 
 CONTAINER_PRODUCTION="consul workspace grafana nginx adminer aerospike elasticsearch mariadb memcached mongodb mysql percona pgadmin phpfpm phpmyadmin portainer postgresql redis solr spark terraform ansible jenkins golang locust-master locust-slave"
-CONTAINER_DEVELOPMENT="consul alertmanager caddy cadvisor grafana nodeexporter portainer prometheus pushgateway ansible jenkins golang"
+CONTAINER_DEVELOPMENT="consul alertmanager caddy cadvisor grafana nodeexporter portainer prometheus pushgateway"
 
 export DOCKER_CLIENT_TIMEOUT=300
 export COMPOSE_HTTP_TIMEOUT=300
