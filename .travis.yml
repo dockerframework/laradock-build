@@ -16,7 +16,7 @@ env:
     - GOARCH=amd64
 
 before_install:
-  - sudo chmod +x ./laradock.sh
+  - sudo chmod +x ./docker-build.sh ./docker-cmd.sh
   - sudo apt-get update
   - sudo apt-get -y -o Dpkg::Options::="--force-confnew" install docker-ce
   - echo 'DOCKER_OPTS="-H tcp://127.0.0.1:2375 -H unix:///var/run/docker.sock -s devicemapper"' | sudo tee /etc/default/docker > /dev/null
