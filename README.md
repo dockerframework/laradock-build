@@ -7,10 +7,10 @@ Docker builder & running script for Laradock.
 * Change `.env.example` file to `.env` for Docker environment configuration
 
 ## Setup Docker Builder Script
-* Change docker build & running environment in `laradock.sh` file
+* Change docker build & running environment in `docker-build.sh` file
   - ENV="0"  # (0 = development, 1 = production)
 * Setup for containers
-  - CONTAINER_PRODUCTION="consul portainer ..."     # (see `laradock.sh` for available containers)
+  - CONTAINER_PRODUCTION="consul portainer ..."     # (see `docker-build.sh` for available containers)
   - CONTAINER_DEVELOPMENT="consul portainer"    # (using only 2 containers)
 * Setup cache containers
   - REMOVE_CACHE="0" # (0 = using cache (default), 1 = no-cache)
@@ -24,5 +24,12 @@ Docker builder & running script for Laradock.
 ## Running Laradock Builder
 You can run the command / terminal using bash to run docker
 ```
-./laradock.sh
+make docker-run       # or
+./docker-build.sh
+```
+
+## Remove Container
+Remove container including volume & network
+```
+make docker-down
 ```

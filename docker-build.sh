@@ -7,13 +7,13 @@
 #  License    : MIT
 # -----------------------------------------------------------------------------
 
-TITLE="LARADOCK BUILDER SCRIPT"      # script name
-VER="1.4.4"                          # script version
-ENV="0"                              # container environment (0 = development, 1 = production)
-SKIP_BUILD="0"                       # (0 = with build process, 1 = bypass build process)
-REMOVE_CACHE="0"                     # (0 = using cache, 1 = no-cache)
-RECREATE_CONTAINER="0"               # (0 = disable recreate container, 1 = force recreate container)
-DAEMON_MODE="1"                      # (0 = disable daemon mode, 1 = running daemon mode / background)
+TITLE="LARADOCK BUILDER SCRIPT"           # script name
+VER="1.4.4"                               # script version
+ENV="0"                                   # container environment (0 = development, 1 = production)
+SKIP_BUILD="0"                            # (0 = with build process, 1 = bypass build process)
+REMOVE_CACHE="0"                          # (0 = using cache, 1 = no-cache)
+RECREATE_CONTAINER="0"                    # (0 = disable recreate container, 1 = force recreate container)
+DAEMON_MODE="1"                           # (0 = disable daemon mode, 1 = running daemon mode / background)
 
 USERNAME=`echo $USER`
 PATH_HOME=`echo $HOME`
@@ -144,19 +144,6 @@ PATH_HOME=`echo $HOME`
 ## |   8306   |     9100   |  nodeexporter                    |
 ## |   8307   |     9090   |  prometheus                      |
 ## |   8308   |     9091   |  pushgateway                     |
-## +----------+------------+----------------------------------+
-## |   8400   |     3000   |  ansible                         |
-## +----------+------------+----------------------------------+
-## |   8401   |     8080   |  jenkins master (web ui)         |
-## |   8402   |    50000   |  jenkins slave                   |
-## +----------+------------+----------------------------------+
-## |   8501   |     8089   |  locust master & slave           |
-## |   8502   |     5557   |  locust master                   |
-## |   8503   |     5558   |  locust master                   |
-## |   8504   |    50671   |  locust slave                    |
-## |   8505   |    50672   |  locust slave                    |
-## +----------+------------+----------------------------------+
-## |   8601   |       22   |  golang                          |
 ## +----------+------------+----------------------------------+
 ## |   9901   |       80   |  workspace (phpfpm)              |
 ## |   9902   |     9090   |  workspace (xdebug)              |
