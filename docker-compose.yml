@@ -31,15 +31,15 @@ services:
     image: dockerframework/core-consul
     container_name: dockerframework_consul
     ports:
-      - "8300:8300"       # server RPC
-      - "8301:8301"       # serf LAN
-      - "8301:8301/udp"   # serf LAN (UDP)
-      - "8302:8302"       # serf WAN
-      - "8302:8302/udp"   # serf WAN (UDP)
-      - "8500:8500"       # HTTP
-      - "8501:8501"       # HTTPS
-      - "8600:8600"       # DNS
-      - "8600:8600/udp"   # DNS (UDP)
+      - "7100:8300"       # server RPC
+      - "7101:8301"       # serf LAN
+      - "7102:8301/udp"   # serf LAN (UDP)
+      - "7103:8302"       # serf WAN
+      - "7104:8302/udp"   # serf WAN (UDP)
+      - "7105:8500"       # HTTP
+      - "7106:8501"       # HTTPS
+      - "7107:8600"       # DNS
+      - "7108:8600/udp"   # DNS (UDP)
     volumes:
       - /etc/localtime:/etc/localtime:ro
     environment:
@@ -72,7 +72,7 @@ services:
       - '--config.file=/etc/alertmanager/config.yml'
       - '--storage.path=/alertmanager'
     ports:
-      - "${ALERTMANAGER_PORT}:9093"
+      - "8100:9093"
     networks:
       dockerframework-net:
         ipv4_address: 172.212.0.5
